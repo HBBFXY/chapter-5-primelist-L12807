@@ -14,4 +14,3 @@ def PrimeList(N):
         if is_prime:
             primes.append(str(num))
     return " ".join(primes)
-
