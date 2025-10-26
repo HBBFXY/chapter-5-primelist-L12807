@@ -13,6 +13,5 @@ def PrimeList(N):
                 break
         if is_prime:
             primes.append(str(num))
-    # 用空格连接结果，末尾无空格
     return " ".join(primes)
 
