@@ -11,6 +11,6 @@ def PrimeList(N):
             if num % i == 0:
                 is_prime = False
                 break
-        if is_prime:
+        if is_prime：
             primes.append(str(num))
     return " ".join(primes)
